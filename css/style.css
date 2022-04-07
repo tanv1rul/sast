@@ -38,3 +38,21 @@ p{
     cursor: pointer;
     border-bottom: 5px dotted #fff;
 }
+
+/* social lik css start */
+.social-link{
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.social-link i{
+    font-size: 25px;
+    color: white;
+}
+
+.social-link .insta{
+    margin-left: 15px;
+}
+/* social lik css end */
