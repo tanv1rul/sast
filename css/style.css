@@ -1,0 +1,40 @@
+/* common css start */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body,html{
+    height: 100%;
+    background: #1c1c1c;
+}
+
+@font-face {
+    font-family: 'test';
+    src: url(../fonts/RockoFLF-Bold.ttf);
+}
+
+/* common css start */
+
+p{
+    color: #fff;
+    font-size: 25px;
+    font-family: 'test';
+}
+
+.main{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    margin-top: 10px;
+}
+
+.text #cute{
+    cursor: pointer;
+    border-bottom: 5px dotted #fff;
+}
